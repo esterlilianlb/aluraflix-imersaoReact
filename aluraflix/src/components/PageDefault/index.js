@@ -14,14 +14,14 @@ const Main = styled.main`
 
 function PageDefault(props) {
   return (
-    <div>
+    <>
       <Menu />
       <Main>
         {props.children}
 
       </Main>
       <Footer />
-    </div>
+    </>
   );
 };
 
